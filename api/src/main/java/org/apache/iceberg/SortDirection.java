@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import java.util.Locale;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public enum SortDirection {
   ASC,

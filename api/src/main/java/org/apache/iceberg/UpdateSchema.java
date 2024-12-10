@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import java.util.Collection;
 import org.apache.iceberg.exceptions.CommitFailedException;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
 import org.apache.iceberg.types.Type;
 
 /**

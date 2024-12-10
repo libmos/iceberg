@@ -24,7 +24,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.function.Function;
 import org.apache.iceberg.metrics.Counter;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public interface CloseableIterator<T> extends Iterator<T>, Closeable {
 

@@ -19,7 +19,7 @@
 package org.apache.iceberg.encryption;
 
 import java.nio.ByteBuffer;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Barebone encryption parameters, one object per content file. Carries the file encryption key

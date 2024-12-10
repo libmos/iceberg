@@ -21,10 +21,12 @@ package org.apache.iceberg.io;
 import java.io.Closeable;
 import java.io.Serializable;
 import java.util.Map;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.DataFile;
 import org.apache.iceberg.DeleteFile;
 import org.apache.iceberg.ManifestFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Pluggable module for reading, writing, and deleting files.

@@ -21,8 +21,8 @@ package org.apache.iceberg;
 import java.util.List;
 import java.util.Map;
 import org.apache.iceberg.io.FileIO;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
 import org.apache.iceberg.types.Conversions;
 import org.apache.iceberg.types.Types;
 

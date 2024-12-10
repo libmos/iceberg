@@ -21,10 +21,10 @@ package org.apache.iceberg.rest.requests;
 import java.util.Map;
 import java.util.Objects;
 import org.apache.iceberg.catalog.Namespace;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
+
 import org.apache.iceberg.rest.RESTRequest;
 
 /** A REST request to create a namespace, with an optional set of properties. */

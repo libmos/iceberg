@@ -25,11 +25,11 @@ import java.util.Map;
 import java.util.function.Function;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterators;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
+
+
 
 public class IndexByName extends TypeUtil.SchemaVisitor<Map<String, Integer>> {
   private static final Joiner DOT = Joiner.on(".");

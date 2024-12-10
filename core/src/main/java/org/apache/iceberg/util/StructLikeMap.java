@@ -24,8 +24,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
 import org.apache.iceberg.types.Types;
 
 public class StructLikeMap<T> extends AbstractMap<StructLike, T> implements Map<StructLike, T> {

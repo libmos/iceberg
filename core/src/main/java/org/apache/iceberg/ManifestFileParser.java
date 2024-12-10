@@ -23,8 +23,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.List;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.types.Types;
 import org.apache.iceberg.util.JsonUtil;
 

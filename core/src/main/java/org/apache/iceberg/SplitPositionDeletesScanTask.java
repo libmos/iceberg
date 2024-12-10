@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import org.apache.iceberg.expressions.Expression;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
+
 
 /** A split of a {@link PositionDeletesScanTask} that is mergeable. */
 class SplitPositionDeletesScanTask

@@ -29,7 +29,7 @@ import org.apache.avro.generic.IndexedRecord;
 import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.Decoder;
 import org.apache.iceberg.common.DynClasses;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 import org.apache.iceberg.util.Pair;

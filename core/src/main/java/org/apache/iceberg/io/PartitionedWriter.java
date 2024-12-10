@@ -20,11 +20,14 @@ package org.apache.iceberg.io;
 
 import java.io.IOException;
 import java.util.Set;
+
+import com.google.common.collect.Iterables;
+import com.google.common.collect.Sets;
 import org.apache.iceberg.FileFormat;
 import org.apache.iceberg.PartitionKey;
 import org.apache.iceberg.PartitionSpec;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

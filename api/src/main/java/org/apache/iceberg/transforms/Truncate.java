@@ -29,8 +29,8 @@ import org.apache.iceberg.expressions.BoundUnaryPredicate;
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.Expressions;
 import org.apache.iceberg.expressions.UnboundPredicate;
-import org.apache.iceberg.relocated.com.google.common.base.Objects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.util.BinaryUtil;
 import org.apache.iceberg.util.SerializableFunction;

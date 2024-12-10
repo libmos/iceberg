@@ -22,8 +22,8 @@ import java.util.List;
 import org.apache.avro.Schema;
 import org.apache.iceberg.mapping.MappedField;
 import org.apache.iceberg.mapping.MappedFields;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 

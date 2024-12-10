@@ -23,8 +23,8 @@ import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.RemovalListener;
 import java.io.Closeable;
 import org.apache.iceberg.TableOperations;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 
 /**
  * Keeps track of the {@link FileIO} instance of the given {@link TableOperations} instance and

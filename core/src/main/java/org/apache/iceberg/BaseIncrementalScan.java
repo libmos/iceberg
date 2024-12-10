@@ -21,7 +21,7 @@ package org.apache.iceberg;
 import org.apache.iceberg.events.IncrementalScanEvent;
 import org.apache.iceberg.events.Listeners;
 import org.apache.iceberg.io.CloseableIterable;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.util.SnapshotUtil;
 
 abstract class BaseIncrementalScan<ThisT, T extends ScanTask, G extends ScanTaskGroup<T>>

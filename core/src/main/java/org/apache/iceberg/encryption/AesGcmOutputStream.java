@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import org.apache.iceberg.io.PositionOutputStream;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class AesGcmOutputStream extends PositionOutputStream {
 

@@ -22,7 +22,7 @@ import java.util.List;
 import org.apache.iceberg.PartitionField;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 public interface PartitionSpecVisitor<T> {
   default T identity(int fieldId, String sourceName, int sourceId) {

@@ -37,7 +37,7 @@ import io.delta.standalone.types.StructType;
 import io.delta.standalone.types.TimestampType;
 import java.util.List;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 

@@ -22,7 +22,7 @@ import java.io.ObjectStreamException;
 import org.apache.iceberg.expressions.BoundPredicate;
 import org.apache.iceberg.expressions.Expressions;
 import org.apache.iceberg.expressions.UnboundPredicate;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.util.SerializableFunction;
 

@@ -21,7 +21,7 @@ package org.apache.iceberg.snowflake;
 import java.util.Locale;
 import org.apache.iceberg.catalog.Namespace;
 import org.apache.iceberg.catalog.TableIdentifier;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 class NamespaceHelpers {
   private static final int MAX_NAMESPACE_DEPTH = 2;

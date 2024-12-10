@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import java.util.Set;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
+
 
 /**
  * API for replacing files in a table.

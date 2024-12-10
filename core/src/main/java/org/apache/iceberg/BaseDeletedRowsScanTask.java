@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import java.util.List;
 import org.apache.iceberg.expressions.ResidualEvaluator;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
 
 class BaseDeletedRowsScanTask extends BaseChangelogContentScanTask<DeletedRowsScanTask, DataFile>
     implements DeletedRowsScanTask {

@@ -21,8 +21,8 @@ package org.apache.iceberg;
 import java.util.List;
 import java.util.Objects;
 import java.util.StringJoiner;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 
 public class GenericStatisticsFile implements StatisticsFile {
   private final long snapshotId;

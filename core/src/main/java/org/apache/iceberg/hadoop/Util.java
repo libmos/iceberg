@@ -36,8 +36,8 @@ import org.apache.iceberg.exceptions.RuntimeIOException;
 import org.apache.iceberg.io.FileIO;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.ResolvingFileIO;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

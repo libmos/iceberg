@@ -30,7 +30,7 @@ import org.apache.iceberg.encryption.EncryptionKeyMetadata;
 import org.apache.iceberg.io.DeleteWriteResult;
 import org.apache.iceberg.io.FileAppender;
 import org.apache.iceberg.io.FileWriter;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class EqualityDeleteWriter<T> implements FileWriter<T, DeleteWriteResult> {
   private final FileAppender<T> appender;

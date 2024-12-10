@@ -27,8 +27,8 @@ import org.apache.avro.io.DecoderFactory;
 import org.apache.avro.io.ResolvingDecoder;
 import org.apache.iceberg.avro.ValueReader;
 import org.apache.iceberg.exceptions.RuntimeIOException;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.collect.MapMaker;
+
+
 
 /**
  * Resolver to resolve {@link Decoder} to a {@link ResolvingDecoder}. This class uses a {@link

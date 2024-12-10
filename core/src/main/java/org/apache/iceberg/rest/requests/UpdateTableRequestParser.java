@@ -27,8 +27,8 @@ import org.apache.iceberg.MetadataUpdateParser;
 import org.apache.iceberg.UpdateRequirement;
 import org.apache.iceberg.catalog.TableIdentifier;
 import org.apache.iceberg.catalog.TableIdentifierParser;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 import org.apache.iceberg.util.JsonUtil;
 
 public class UpdateTableRequestParser {

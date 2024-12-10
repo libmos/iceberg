@@ -28,8 +28,8 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Stream;
 import javax.annotation.Nullable;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
+
 import org.apache.iceberg.util.ByteBuffers;
 import org.apache.iceberg.util.Pair;
 

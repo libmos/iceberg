@@ -21,7 +21,7 @@ package org.apache.iceberg.rest.responses;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonNode;
 import java.io.IOException;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.rest.credentials.Credential;
 import org.apache.iceberg.rest.credentials.CredentialParser;
 import org.apache.iceberg.util.JsonUtil;

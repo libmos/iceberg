@@ -23,7 +23,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
 
 public class SerializableMap<K, V> implements Map<K, V>, Serializable {
   private static final long serialVersionUID = -3377238354349859240L;

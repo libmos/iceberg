@@ -19,8 +19,8 @@
 package org.apache.iceberg;
 
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
 
 public class EnvironmentContext {
   public static final String ENGINE_NAME = "engine-name";

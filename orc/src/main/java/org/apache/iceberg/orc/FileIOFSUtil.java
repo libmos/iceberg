@@ -32,7 +32,7 @@ import org.apache.hadoop.util.Progressable;
 import org.apache.iceberg.hadoop.HadoopStreams;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 class FileIOFSUtil {
   private FileIOFSUtil() {}

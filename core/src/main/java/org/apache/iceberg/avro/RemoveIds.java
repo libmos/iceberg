@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import org.apache.avro.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 public class RemoveIds extends AvroSchemaVisitor<Schema> {
   @Override

@@ -26,7 +26,7 @@ import org.apache.iceberg.metrics.CommitReport;
 import org.apache.iceberg.metrics.CommitReportParser;
 import org.apache.iceberg.metrics.ScanReport;
 import org.apache.iceberg.metrics.ScanReportParser;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.rest.requests.ReportMetricsRequest.ReportType;
 import org.apache.iceberg.util.JsonUtil;
 

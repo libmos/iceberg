@@ -21,8 +21,8 @@ package org.apache.iceberg.types;
 import java.util.List;
 import java.util.function.Supplier;
 import org.apache.iceberg.Schema;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 
 class ReassignDoc extends TypeUtil.CustomOrderSchemaVisitor<Type> {
   private final Schema docSourceSchema;

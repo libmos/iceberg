@@ -40,8 +40,8 @@ import org.apache.iceberg.FloatFieldMetrics;
 import org.apache.iceberg.deletes.PositionDelete;
 import org.apache.iceberg.orc.OrcRowWriter;
 import org.apache.iceberg.orc.OrcValueWriter;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 import org.apache.iceberg.util.ByteBuffers;
 import org.apache.orc.storage.common.type.HiveDecimal;
 import org.apache.orc.storage.ql.exec.vector.BytesColumnVector;

@@ -24,7 +24,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import org.apache.iceberg.io.IOUtil;
 import org.apache.iceberg.io.SeekableInputStream;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class AesGcmInputStream extends SeekableInputStream {
   private final SeekableInputStream sourceStream;

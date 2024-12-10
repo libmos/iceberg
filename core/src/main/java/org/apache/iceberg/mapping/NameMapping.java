@@ -21,9 +21,9 @@ package org.apache.iceberg.mapping;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
+
+
 
 /** Represents a mapping from external schema names to Iceberg type IDs. */
 public class NameMapping implements Serializable {

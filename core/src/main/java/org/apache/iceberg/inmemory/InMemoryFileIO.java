@@ -19,12 +19,15 @@
 package org.apache.iceberg.inmemory;
 
 import java.util.Map;
+
+import com.google.common.base.Preconditions;
+import com.google.common.collect.Maps;
 import org.apache.iceberg.exceptions.NotFoundException;
 import org.apache.iceberg.io.FileIO;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
 
 public class InMemoryFileIO implements FileIO {
 

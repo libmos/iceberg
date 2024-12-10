@@ -21,9 +21,10 @@ package org.apache.iceberg;
 import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.Set;
+
+import com.google.common.collect.ImmutableMap;
 import org.apache.avro.Schema;
 import org.apache.iceberg.avro.AvroSchemaUtil;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
 import org.apache.iceberg.types.Types;
 
 class GenericDataFile extends BaseFile<DataFile> implements DataFile {

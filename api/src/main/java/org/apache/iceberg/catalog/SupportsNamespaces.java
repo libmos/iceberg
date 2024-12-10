@@ -24,7 +24,7 @@ import java.util.Set;
 import org.apache.iceberg.exceptions.AlreadyExistsException;
 import org.apache.iceberg.exceptions.NamespaceNotEmptyException;
 import org.apache.iceberg.exceptions.NoSuchNamespaceException;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 
 /**
  * Catalog methods for working with namespaces.

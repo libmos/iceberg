@@ -21,11 +21,13 @@ package org.apache.iceberg.inmemory;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.UUID;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.exceptions.AlreadyExistsException;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
 import org.apache.iceberg.io.PositionOutputStream;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class InMemoryOutputFile implements OutputFile {
 

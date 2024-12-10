@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.UpdateSchema;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.TypeUtil;
 import org.apache.iceberg.types.Types;

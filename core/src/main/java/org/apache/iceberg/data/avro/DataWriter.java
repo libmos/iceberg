@@ -21,6 +21,8 @@ package org.apache.iceberg.data.avro;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Stream;
+
+import com.google.common.base.Preconditions;
 import org.apache.avro.LogicalType;
 import org.apache.avro.LogicalTypes;
 import org.apache.avro.Schema;
@@ -32,7 +34,7 @@ import org.apache.iceberg.avro.LogicalMap;
 import org.apache.iceberg.avro.MetricsAwareDatumWriter;
 import org.apache.iceberg.avro.ValueWriter;
 import org.apache.iceberg.avro.ValueWriters;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class DataWriter<T> implements MetricsAwareDatumWriter<T> {
   private ValueWriter<T> writer = null;

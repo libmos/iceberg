@@ -23,7 +23,7 @@ import java.nio.CharBuffer;
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Within Z-Ordering the byte representations of objects being compared must be ordered, this

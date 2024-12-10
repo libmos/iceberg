@@ -29,11 +29,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.function.Supplier;
 import org.apache.iceberg.ManifestEntry.Status;
 import org.apache.iceberg.exceptions.RuntimeIOException;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
-import org.apache.iceberg.relocated.com.google.common.collect.ListMultimap;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.collect.Multimaps;
+
+
+
+
+
 import org.apache.iceberg.util.BinPacking.ListPacker;
 import org.apache.iceberg.util.Exceptions;
 import org.apache.iceberg.util.Tasks;

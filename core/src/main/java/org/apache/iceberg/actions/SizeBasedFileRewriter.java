@@ -26,10 +26,10 @@ import org.apache.iceberg.ContentFile;
 import org.apache.iceberg.ContentScanTask;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.Table;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.math.LongMath;
+
+
+
+
 import org.apache.iceberg.util.BinPacking;
 import org.apache.iceberg.util.PropertyUtil;
 import org.slf4j.Logger;

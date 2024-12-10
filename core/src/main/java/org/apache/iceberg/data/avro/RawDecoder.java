@@ -28,7 +28,7 @@ import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.DecoderFactory;
 import org.apache.avro.message.MessageDecoder;
 import org.apache.iceberg.avro.ProjectionDatumReader;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 
 public class RawDecoder<D> extends MessageDecoder.BaseDecoder<D> {
   private static final ThreadLocal<BinaryDecoder> DECODER = new ThreadLocal<>();

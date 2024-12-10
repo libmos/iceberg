@@ -20,8 +20,8 @@ package org.apache.iceberg.util;
 
 import java.util.Objects;
 import org.apache.iceberg.DataFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
+
 
 public class DataFileSet extends WrapperSet<DataFile> {
   private static final ThreadLocal<DataFileWrapper> WRAPPERS =

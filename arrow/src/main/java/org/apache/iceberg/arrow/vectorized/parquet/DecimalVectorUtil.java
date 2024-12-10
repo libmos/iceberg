@@ -21,7 +21,7 @@ package org.apache.iceberg.arrow.vectorized.parquet;
 import java.util.Arrays;
 import java.util.Locale;
 import org.apache.arrow.vector.DecimalVector;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
+
 
 public class DecimalVectorUtil {
 

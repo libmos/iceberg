@@ -27,8 +27,8 @@ import org.apache.iceberg.PositionDeletesScanTask;
 import org.apache.iceberg.RewriteJobOrder;
 import org.apache.iceberg.actions.RewritePositionDeleteFiles.FileGroupInfo;
 import org.apache.iceberg.actions.RewritePositionDeleteFiles.FileGroupRewriteResult;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 import org.apache.iceberg.util.DeleteFileSet;
 
 /**

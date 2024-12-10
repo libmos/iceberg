@@ -20,7 +20,7 @@ package org.apache.iceberg.metrics;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.immutables.value.Value;
 
 /** A serializable version of a {@link Timer} that carries its result. */

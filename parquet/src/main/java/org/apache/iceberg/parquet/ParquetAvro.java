@@ -33,9 +33,9 @@ import org.apache.avro.generic.GenericFixed;
 import org.apache.avro.specific.SpecificData;
 import org.apache.iceberg.avro.AvroSchemaVisitor;
 import org.apache.iceberg.avro.UUIDConversion;
-import org.apache.iceberg.relocated.com.google.common.base.Objects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
+
 import org.apache.iceberg.types.TypeUtil;
 
 class ParquetAvro {

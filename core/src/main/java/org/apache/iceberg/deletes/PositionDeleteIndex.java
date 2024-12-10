@@ -22,7 +22,7 @@ import java.nio.ByteBuffer;
 import java.util.Collection;
 import java.util.function.LongConsumer;
 import org.apache.iceberg.DeleteFile;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
 
 public interface PositionDeleteIndex {
   /**

@@ -26,7 +26,7 @@ import org.apache.iceberg.DeleteFile;
 import org.apache.iceberg.FileContent;
 import org.apache.iceberg.FileFormat;
 import org.apache.iceberg.MetadataColumns;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
 import org.apache.iceberg.types.Conversions;
 import org.apache.iceberg.types.Type;
 

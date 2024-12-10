@@ -21,8 +21,8 @@ package org.apache.iceberg.mapping;
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.Set;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
+
+
 
 /** An immutable mapping between a field ID and a set of names. */
 public class MappedField implements Serializable {

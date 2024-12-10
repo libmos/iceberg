@@ -20,11 +20,11 @@ package org.apache.iceberg;
 
 import java.util.Map;
 import java.util.Set;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner.MapJoiner;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
+
+
 import org.apache.iceberg.util.ContentFileUtil;
 import org.apache.iceberg.util.ScanTaskUtil;
 

@@ -22,7 +22,7 @@ import java.io.Serializable;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
+
 import org.apache.iceberg.view.ViewMetadata;
 import org.apache.iceberg.view.ViewVersion;
 

@@ -23,7 +23,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.IntFunction;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 import org.apache.iceberg.util.UnicodeUtil;
 
 public class Comparators {

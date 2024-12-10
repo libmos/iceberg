@@ -21,12 +21,12 @@ package org.apache.iceberg.rest.responses;
 import java.util.List;
 import java.util.Map;
 import org.apache.iceberg.TableMetadata;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
+
+
+
 import org.apache.iceberg.rest.RESTResponse;
 import org.apache.iceberg.rest.credentials.Credential;
 

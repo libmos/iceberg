@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import java.util.Locale;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Enum of supported rewrite job order, it defines the order in which the file groups should be

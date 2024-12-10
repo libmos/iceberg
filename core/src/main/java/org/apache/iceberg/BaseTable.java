@@ -27,7 +27,7 @@ import org.apache.iceberg.io.FileIO;
 import org.apache.iceberg.io.LocationProvider;
 import org.apache.iceberg.metrics.LoggingMetricsReporter;
 import org.apache.iceberg.metrics.MetricsReporter;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Base {@link Table} implementation.

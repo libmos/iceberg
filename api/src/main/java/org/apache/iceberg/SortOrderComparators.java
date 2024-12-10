@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import java.lang.reflect.Array;
 import java.util.Comparator;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.types.Comparators;
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;

@@ -19,7 +19,7 @@
 package org.apache.iceberg.metrics;
 
 import org.apache.iceberg.metrics.MetricsContext.Unit;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.immutables.value.Value;
 
 /** A serializable version of a {@link Counter} that carries its result. */

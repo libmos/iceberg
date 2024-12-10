@@ -31,7 +31,7 @@ import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.DatumWriter;
 import org.apache.avro.io.DecoderFactory;
 import org.apache.avro.io.EncoderFactory;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class AvroEncoderUtil {
 

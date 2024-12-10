@@ -20,8 +20,8 @@ package org.apache.iceberg.expressions;
 
 import java.util.Comparator;
 import java.util.Set;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
 import org.apache.iceberg.types.Type;
 
 public class BoundLiteralPredicate<T> extends BoundPredicate<T> {

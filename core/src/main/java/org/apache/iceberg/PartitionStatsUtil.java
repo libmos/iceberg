@@ -25,9 +25,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Queues;
+
+
+
 import org.apache.iceberg.types.Comparators;
 import org.apache.iceberg.types.Types.StructType;
 import org.apache.iceberg.util.PartitionMap;

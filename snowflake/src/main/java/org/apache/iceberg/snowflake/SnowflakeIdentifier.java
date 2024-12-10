@@ -18,8 +18,8 @@
  */
 package org.apache.iceberg.snowflake;
 
-import org.apache.iceberg.relocated.com.google.common.base.Objects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 
 /**
  * Since the SnowflakeCatalog supports exactly two levels of Iceberg Namespaces, corresponding

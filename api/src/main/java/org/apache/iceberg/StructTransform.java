@@ -23,7 +23,8 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.transforms.Transform;
 import org.apache.iceberg.util.SerializableFunction;
 

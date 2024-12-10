@@ -24,9 +24,9 @@ import java.util.Iterator;
 import java.util.Objects;
 import java.util.Set;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterators;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
+
 import org.apache.iceberg.types.Types;
 
 public class StructLikeSet extends AbstractSet<StructLike> implements Set<StructLike> {

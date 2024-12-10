@@ -20,7 +20,7 @@ package org.apache.iceberg.metrics;
 
 import java.util.Arrays;
 import java.util.Random;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /** A {@link Histogram} implementation with reservoir sampling. */
 public class FixedReservoirHistogram implements Histogram {

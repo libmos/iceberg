@@ -34,11 +34,11 @@ import org.apache.iceberg.io.IOUtil;
 import org.apache.iceberg.io.OutputFile;
 import org.apache.iceberg.io.PositionOutputStream;
 import org.apache.iceberg.puffin.PuffinFormat.Flag;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
+
+
+
 
 public class PuffinWriter implements FileAppender<Blob> {
   // Must not be modified

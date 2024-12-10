@@ -24,7 +24,7 @@ import io.delta.standalone.types.MapType;
 import io.delta.standalone.types.StructField;
 import io.delta.standalone.types.StructType;
 import java.util.List;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 abstract class DeltaLakeDataTypeVisitor<T> {
   public static <T> T visit(DataType type, DeltaLakeDataTypeVisitor<T> visitor) {

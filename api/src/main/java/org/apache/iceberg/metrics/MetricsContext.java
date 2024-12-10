@@ -23,7 +23,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Generalized interface for creating telemetry related instances for tracking operations.

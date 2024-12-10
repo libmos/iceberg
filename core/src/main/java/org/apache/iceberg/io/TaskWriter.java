@@ -20,8 +20,10 @@ package org.apache.iceberg.io;
 
 import java.io.Closeable;
 import java.io.IOException;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.DataFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * The writer interface could accept records and provide the generated data files.

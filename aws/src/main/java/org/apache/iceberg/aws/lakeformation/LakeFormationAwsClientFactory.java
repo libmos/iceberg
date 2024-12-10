@@ -21,7 +21,7 @@ package org.apache.iceberg.aws.lakeformation;
 import java.util.Map;
 import org.apache.iceberg.aws.AssumeRoleAwsClientFactory;
 import org.apache.iceberg.aws.AwsProperties;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import software.amazon.awssdk.auth.credentials.AwsCredentials;
 import software.amazon.awssdk.auth.credentials.AwsCredentialsProvider;
 import software.amazon.awssdk.auth.credentials.AwsSessionCredentials;

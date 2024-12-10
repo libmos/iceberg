@@ -25,8 +25,8 @@ import java.util.List;
 import java.util.function.LongConsumer;
 import java.util.zip.CRC32;
 import org.apache.iceberg.DeleteFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 
 class BitmapPositionDeleteIndex implements PositionDeleteIndex {
   private static final int LENGTH_SIZE_BYTES = 4;

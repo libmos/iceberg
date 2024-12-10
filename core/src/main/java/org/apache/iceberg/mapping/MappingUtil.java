@@ -24,13 +24,13 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import org.apache.iceberg.Schema;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.collect.Multimap;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
+
+
+
+
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.TypeUtil;
 import org.apache.iceberg.types.Types;

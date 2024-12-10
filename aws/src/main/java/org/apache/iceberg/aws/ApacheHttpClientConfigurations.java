@@ -21,7 +21,7 @@ package org.apache.iceberg.aws;
 import java.net.URI;
 import java.time.Duration;
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
+
 import org.apache.iceberg.util.PropertyUtil;
 import software.amazon.awssdk.awscore.client.builder.AwsSyncClientBuilder;
 import software.amazon.awssdk.http.apache.ApacheHttpClient;

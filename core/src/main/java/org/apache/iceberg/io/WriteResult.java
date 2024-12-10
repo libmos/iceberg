@@ -23,8 +23,8 @@ import java.util.Collections;
 import java.util.List;
 import org.apache.iceberg.DataFile;
 import org.apache.iceberg.DeleteFile;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 import org.apache.iceberg.util.CharSequenceSet;
 
 public class WriteResult implements Serializable {

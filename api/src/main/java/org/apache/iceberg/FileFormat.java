@@ -19,7 +19,8 @@
 package org.apache.iceberg;
 
 import java.util.Locale;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.types.Comparators;
 
 /** Enum of supported file formats. */

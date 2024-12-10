@@ -29,8 +29,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import org.apache.iceberg.CatalogProperties;
 import org.apache.iceberg.ClientPoolImpl;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
 
 public class JdbcClientPool extends ClientPoolImpl<Connection, SQLException> {
 

@@ -26,7 +26,7 @@ import org.apache.iceberg.deletes.BaseDVFileWriter;
 import org.apache.iceberg.deletes.DVFileWriter;
 import org.apache.iceberg.deletes.PositionDelete;
 import org.apache.iceberg.deletes.PositionDeleteIndex;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * PartitioningDVWriter is a PartitioningWriter implementation that accumulates deleted positions

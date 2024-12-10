@@ -20,7 +20,7 @@ package org.apache.iceberg.arrow.vectorized;
 
 import org.apache.arrow.vector.FieldVector;
 import org.apache.iceberg.MetadataColumns;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 import org.apache.parquet.column.ColumnDescriptor;

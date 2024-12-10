@@ -20,8 +20,8 @@ package org.apache.iceberg.aws.s3;
 
 import java.util.Map;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
+
 
 /**
  * This class represents a fully qualified location in S3 for input/output operations expressed as

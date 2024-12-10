@@ -21,8 +21,8 @@ package org.apache.iceberg.rest.requests;
 import java.util.List;
 import org.apache.iceberg.MetadataUpdate;
 import org.apache.iceberg.catalog.TableIdentifier;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.rest.RESTRequest;
 
 public class UpdateTableRequest implements RESTRequest {

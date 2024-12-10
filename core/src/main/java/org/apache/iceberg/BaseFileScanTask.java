@@ -21,8 +21,8 @@ package org.apache.iceberg;
 import java.util.List;
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.ResidualEvaluator;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.util.ScanTaskUtil;
 
 public class BaseFileScanTask extends BaseContentScanTask<FileScanTask, DataFile>

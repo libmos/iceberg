@@ -28,7 +28,7 @@ import java.util.Map;
 import org.apache.avro.generic.IndexedRecord;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.avro.AvroSchemaUtil;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 import org.apache.iceberg.types.Types;
 
 class StandardKeyMetadata implements NativeEncryptionKeyMetadata, IndexedRecord {

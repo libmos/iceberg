@@ -18,12 +18,14 @@
  */
 package org.apache.iceberg;
 
+import com.google.common.base.Preconditions;
+
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * This class defines different metrics modes, which allow users to control the collection of

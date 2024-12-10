@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
-import org.apache.iceberg.relocated.com.google.common.primitives.Longs;
+
 
 public class ArrayUtil {
   private ArrayUtil() {}

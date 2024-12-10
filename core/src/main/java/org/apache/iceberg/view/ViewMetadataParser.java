@@ -35,10 +35,10 @@ import org.apache.iceberg.SchemaParser;
 import org.apache.iceberg.TableMetadataParser.Codec;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
+
+
 import org.apache.iceberg.util.JsonUtil;
 
 public class ViewMetadataParser {

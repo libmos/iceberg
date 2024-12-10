@@ -18,7 +18,7 @@
  */
 package org.apache.iceberg.nessie;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.projectnessie.client.api.NessieApiV1;
 import org.projectnessie.error.NessieNotFoundException;
 import org.projectnessie.model.Branch;

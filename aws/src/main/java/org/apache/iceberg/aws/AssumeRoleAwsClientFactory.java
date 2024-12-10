@@ -21,7 +21,7 @@ package org.apache.iceberg.aws;
 import java.util.Map;
 import java.util.UUID;
 import org.apache.iceberg.aws.s3.S3FileIOProperties;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import software.amazon.awssdk.awscore.client.builder.AwsClientBuilder;
 import software.amazon.awssdk.awscore.client.builder.AwsSyncClientBuilder;
 import software.amazon.awssdk.regions.Region;

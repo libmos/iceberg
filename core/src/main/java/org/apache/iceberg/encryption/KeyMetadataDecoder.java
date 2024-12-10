@@ -26,7 +26,7 @@ import org.apache.avro.Schema;
 import org.apache.avro.message.MessageDecoder;
 import org.apache.iceberg.avro.GenericAvroReader;
 import org.apache.iceberg.data.avro.RawDecoder;
-import org.apache.iceberg.relocated.com.google.common.collect.MapMaker;
+
 
 class KeyMetadataDecoder extends MessageDecoder.BaseDecoder<StandardKeyMetadata> {
   private final org.apache.iceberg.Schema readSchema;

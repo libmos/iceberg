@@ -24,7 +24,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.nio.ByteBuffer;
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
 import org.apache.iceberg.util.ByteBuffers;
 
 /** Iceberg file format metrics. */

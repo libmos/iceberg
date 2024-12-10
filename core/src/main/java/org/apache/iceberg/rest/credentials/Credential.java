@@ -19,7 +19,7 @@
 package org.apache.iceberg.rest.credentials;
 
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.immutables.value.Value;
 
 @Value.Immutable

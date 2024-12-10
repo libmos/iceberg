@@ -33,7 +33,7 @@ import org.apache.iceberg.data.orc.GenericOrcWriter;
 import org.apache.iceberg.data.parquet.GenericParquetWriter;
 import org.apache.iceberg.orc.ORC;
 import org.apache.iceberg.parquet.Parquet;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 class GenericFileWriterFactory extends BaseFileWriterFactory<Record> {
 

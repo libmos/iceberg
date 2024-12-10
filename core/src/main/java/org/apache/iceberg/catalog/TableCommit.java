@@ -23,7 +23,7 @@ import org.apache.iceberg.MetadataUpdate;
 import org.apache.iceberg.TableMetadata;
 import org.apache.iceberg.UpdateRequirement;
 import org.apache.iceberg.UpdateRequirements;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.immutables.value.Value;
 
 /**

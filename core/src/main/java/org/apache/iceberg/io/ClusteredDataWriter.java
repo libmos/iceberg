@@ -22,7 +22,7 @@ import java.util.List;
 import org.apache.iceberg.DataFile;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 /**
  * A data writer capable of writing to multiple specs and partitions that requires the incoming

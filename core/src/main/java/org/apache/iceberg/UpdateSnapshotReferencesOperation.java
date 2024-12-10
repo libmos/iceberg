@@ -19,8 +19,8 @@
 package org.apache.iceberg;
 
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
 import org.apache.iceberg.util.SnapshotUtil;
 
 /**

@@ -22,11 +22,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import org.apache.hc.core5.http.Method;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.base.Splitter;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
-import org.apache.iceberg.relocated.com.google.common.base.Supplier;
+
+
+
+
+
 
 /**
  * Holds an endpoint definition that consists of the HTTP method (GET, POST, DELETE, ...) and the

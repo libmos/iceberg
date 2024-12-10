@@ -20,10 +20,10 @@ package org.apache.iceberg;
 
 import java.util.Collection;
 import java.util.Collections;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
+
+
 
 public class BaseScanTaskGroup<T extends ScanTask> implements ScanTaskGroup<T> {
   private final StructLike groupingKey;

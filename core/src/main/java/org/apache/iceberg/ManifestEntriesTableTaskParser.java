@@ -26,8 +26,8 @@ import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.ExpressionParser;
 import org.apache.iceberg.io.FileIO;
 import org.apache.iceberg.io.FileIOParser;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.util.JsonUtil;
 import org.apache.iceberg.util.PartitionUtil;
 

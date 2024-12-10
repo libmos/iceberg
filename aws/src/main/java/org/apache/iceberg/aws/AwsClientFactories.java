@@ -22,7 +22,7 @@ import java.net.URI;
 import java.util.Map;
 import org.apache.iceberg.aws.s3.S3FileIOProperties;
 import org.apache.iceberg.common.DynConstructors;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
+
 import org.apache.iceberg.util.PropertyUtil;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.AwsCredentialsProvider;

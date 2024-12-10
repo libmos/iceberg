@@ -20,8 +20,8 @@ package org.apache.iceberg;
 
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.ResidualEvaluator;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.util.ArrayUtil;
 import org.apache.iceberg.util.ScanTaskUtil;
 

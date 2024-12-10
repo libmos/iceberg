@@ -19,8 +19,8 @@
 package org.apache.iceberg.util;
 
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
+
 
 public class EnvironmentUtil {
   private EnvironmentUtil() {}

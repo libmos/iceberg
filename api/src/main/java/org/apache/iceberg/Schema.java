@@ -28,17 +28,12 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.BiMap;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableBiMap;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
-import org.apache.iceberg.relocated.com.google.common.primitives.Ints;
+
+import com.google.common.annotations.VisibleForTesting;
+import com.google.common.base.Joiner;
+import com.google.common.base.Preconditions;
+import com.google.common.collect.*;
+import com.google.common.primitives.Ints;
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.TypeUtil;
 import org.apache.iceberg.types.Types;
@@ -56,7 +51,8 @@ public class Schema implements Serializable {
   private static final String ALL_COLUMNS = "*";
   private static final int DEFAULT_SCHEMA_ID = 0;
 
-  @VisibleForTesting static final int DEFAULT_VALUES_MIN_FORMAT_VERSION = 3;
+  @VisibleForTesting
+  static final int DEFAULT_VALUES_MIN_FORMAT_VERSION = 3;
 
   @VisibleForTesting
   static final Map<Type.TypeID, Integer> MIN_FORMAT_VERSIONS =

@@ -19,8 +19,8 @@
 package org.apache.iceberg.rest.requests;
 
 import java.util.List;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.rest.RESTRequest;
 
 public class CommitTransactionRequest implements RESTRequest {

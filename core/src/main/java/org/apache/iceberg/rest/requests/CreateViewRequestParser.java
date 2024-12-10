@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import java.io.IOException;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.SchemaParser;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.util.JsonUtil;
 import org.apache.iceberg.view.ViewVersion;
 import org.apache.iceberg.view.ViewVersionParser;

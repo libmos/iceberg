@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.ResidualEvaluator;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
+
 
 abstract class BaseChangelogContentScanTask<
         ThisT extends ContentScanTask<F> & ChangelogScanTask, F extends ContentFile<F>>

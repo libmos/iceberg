@@ -23,7 +23,7 @@ import java.io.UncheckedIOException;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.StructLike;
 import org.apache.iceberg.encryption.EncryptedOutputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * A rolling writer capable of splitting incoming data or deletes into multiple files within one

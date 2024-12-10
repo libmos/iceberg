@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import java.util.Locale;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Enum of supported write distribution mode, it defines the write behavior of batch or streaming

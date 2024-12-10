@@ -21,7 +21,7 @@ package org.apache.iceberg.arrow.vectorized;
 import java.util.Arrays;
 import org.apache.arrow.vector.FieldVector;
 import org.apache.arrow.vector.VectorSchemaRoot;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * This class is inspired by Spark's {@code ColumnarBatch}. This class wraps a columnar batch in the

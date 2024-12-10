@@ -26,9 +26,9 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import org.apache.iceberg.TableProperties;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

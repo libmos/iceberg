@@ -22,8 +22,8 @@ import org.apache.iceberg.BaseMetastoreTableOperations;
 import org.apache.iceberg.catalog.TableIdentifier;
 import org.apache.iceberg.exceptions.NoSuchTableException;
 import org.apache.iceberg.io.FileIO;
-import org.apache.iceberg.relocated.com.google.common.annotations.VisibleForTesting;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

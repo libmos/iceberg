@@ -21,7 +21,7 @@ package org.apache.iceberg.orc;
 import java.util.List;
 import org.apache.iceberg.mapping.MappedField;
 import org.apache.iceberg.mapping.NameMapping;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.orc.TypeDescription;
 
 class ApplyNameMapping extends OrcSchemaVisitor<TypeDescription> {

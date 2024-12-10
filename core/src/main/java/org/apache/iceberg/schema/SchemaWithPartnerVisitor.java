@@ -20,7 +20,7 @@ package org.apache.iceberg.schema;
 
 import java.util.List;
 import org.apache.iceberg.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 

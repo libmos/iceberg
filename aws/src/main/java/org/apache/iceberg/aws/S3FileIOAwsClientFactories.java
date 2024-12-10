@@ -22,7 +22,7 @@ import java.util.Map;
 import org.apache.iceberg.aws.s3.S3FileIOAwsClientFactory;
 import org.apache.iceberg.aws.s3.S3FileIOProperties;
 import org.apache.iceberg.common.DynConstructors;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
+
 import org.apache.iceberg.util.PropertyUtil;
 
 public class S3FileIOAwsClientFactories {

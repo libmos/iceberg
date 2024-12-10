@@ -22,7 +22,7 @@ import java.io.Serializable;
 import java.util.Collections;
 import java.util.Map;
 import org.apache.iceberg.common.DynMethods;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
+
 import org.apache.iceberg.util.PropertyUtil;
 import software.amazon.awssdk.awscore.client.builder.AwsSyncClientBuilder;
 

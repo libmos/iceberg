@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.expressions.Expressions;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.util.CharSequenceSet;
 import org.apache.iceberg.util.SnapshotUtil;
 

@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 
 /**
  * Generic interface for creating and loading a table implementation.

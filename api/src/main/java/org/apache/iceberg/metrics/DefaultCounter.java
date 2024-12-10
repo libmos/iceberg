@@ -22,7 +22,7 @@ import java.util.Optional;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.LongAdder;
 import org.apache.iceberg.metrics.MetricsContext.Unit;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /** A default {@link Counter} implementation that uses an {@link AtomicLong} to count events. */
 public class DefaultCounter implements Counter {

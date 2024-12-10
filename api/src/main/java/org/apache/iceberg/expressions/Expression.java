@@ -18,9 +18,11 @@
  */
 package org.apache.iceberg.expressions;
 
+import com.google.common.base.Preconditions;
+
 import java.io.Serializable;
 import java.util.Locale;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /** Represents a boolean expression tree. */
 public interface Expression extends Serializable {

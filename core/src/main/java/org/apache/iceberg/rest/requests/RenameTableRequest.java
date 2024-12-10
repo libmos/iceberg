@@ -19,8 +19,8 @@
 package org.apache.iceberg.rest.requests;
 
 import org.apache.iceberg.catalog.TableIdentifier;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 import org.apache.iceberg.rest.RESTRequest;
 
 /** A REST request to rename a table or a view. */

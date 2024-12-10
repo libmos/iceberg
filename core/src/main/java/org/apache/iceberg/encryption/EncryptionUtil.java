@@ -19,11 +19,13 @@
 package org.apache.iceberg.encryption;
 
 import java.util.Map;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.CatalogProperties;
 import org.apache.iceberg.TableProperties;
 import org.apache.iceberg.common.DynConstructors;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.util.PropertyUtil;
 
 public class EncryptionUtil {

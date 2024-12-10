@@ -18,7 +18,7 @@
  */
 package org.apache.iceberg;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * Iceberg supports two ways to modify records in a table: copy-on-write and merge-on-read.

@@ -33,7 +33,7 @@ import org.apache.avro.message.MessageDecoder;
 import org.apache.avro.message.MissingSchemaException;
 import org.apache.avro.message.SchemaStore;
 import org.apache.iceberg.avro.AvroSchemaUtil;
-import org.apache.iceberg.relocated.com.google.common.collect.MapMaker;
+
 
 public class IcebergDecoder<D> extends MessageDecoder.BaseDecoder<D> {
   private static final ThreadLocal<byte[]> HEADER_BUFFER =

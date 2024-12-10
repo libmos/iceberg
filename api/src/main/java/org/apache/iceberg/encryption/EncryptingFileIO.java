@@ -31,8 +31,8 @@ import org.apache.iceberg.ManifestFile;
 import org.apache.iceberg.io.FileIO;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
+
 
 public class EncryptingFileIO implements FileIO, Serializable {
   public static EncryptingFileIO combine(FileIO io, EncryptionManager em) {

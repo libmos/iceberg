@@ -21,7 +21,7 @@ package org.apache.iceberg.util;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.UUID;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class UUIDUtil {
   private UUIDUtil() {}

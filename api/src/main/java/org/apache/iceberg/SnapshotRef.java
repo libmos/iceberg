@@ -20,8 +20,8 @@ package org.apache.iceberg;
 
 import java.io.Serializable;
 import java.util.Objects;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 
 public class SnapshotRef implements Serializable {
 

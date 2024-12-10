@@ -18,8 +18,8 @@
  */
 package org.apache.iceberg.util;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.base.Strings;
+
+
 
 public class LocationUtil {
   private LocationUtil() {}

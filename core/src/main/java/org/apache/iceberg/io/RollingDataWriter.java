@@ -23,7 +23,7 @@ import org.apache.iceberg.DataFile;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.StructLike;
 import org.apache.iceberg.encryption.EncryptedOutputFile;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 /**
  * A rolling data writer that splits incoming data into multiple files within one spec/partition

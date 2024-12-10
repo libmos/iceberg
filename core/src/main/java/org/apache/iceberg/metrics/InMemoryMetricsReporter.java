@@ -18,7 +18,7 @@
  */
 package org.apache.iceberg.metrics;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class InMemoryMetricsReporter implements MetricsReporter {
 

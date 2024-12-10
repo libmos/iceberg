@@ -20,8 +20,8 @@ package org.apache.iceberg.util;
 
 import java.util.Objects;
 import org.apache.iceberg.DeleteFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
+
 
 public class DeleteFileSet extends WrapperSet<DeleteFile> {
   private static final ThreadLocal<DeleteFileWrapper> WRAPPERS =

@@ -19,11 +19,12 @@
 package org.apache.iceberg.actions;
 
 import java.util.List;
+
+import com.google.common.collect.ImmutableList;
 import org.apache.iceberg.RewriteJobOrder;
 import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.StructLike;
 import org.apache.iceberg.expressions.Expression;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
 
 /**
  * An action for rewriting data files according to a rewrite strategy. Generally used for optimizing

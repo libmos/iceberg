@@ -25,7 +25,7 @@ import org.apache.iceberg.StructLike;
 import org.apache.iceberg.deletes.PositionDelete;
 import org.apache.iceberg.deletes.PositionDeleteWriter;
 import org.apache.iceberg.encryption.EncryptedOutputFile;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 import org.apache.iceberg.util.CharSequenceSet;
 
 /**

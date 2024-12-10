@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 import org.apache.avro.generic.IndexedRecord;
 import org.apache.iceberg.avro.AvroSchemaUtil;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.types.Types;
 
 class V3Metadata {

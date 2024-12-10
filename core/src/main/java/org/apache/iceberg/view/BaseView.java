@@ -24,7 +24,7 @@ import java.util.Map;
 import java.util.UUID;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.UpdateLocation;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class BaseView implements View, Serializable {
 

@@ -27,7 +27,7 @@ import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.StructLike;
 import org.apache.iceberg.encryption.EncryptionKeyMetadata;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class DataWriter<T> implements FileWriter<T, DataWriteResult> {
   private final FileAppender<T> appender;

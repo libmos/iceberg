@@ -20,7 +20,7 @@ package org.apache.iceberg;
 
 import java.util.Set;
 import org.apache.iceberg.deletes.DeleteGranularity;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
+
 
 public class TableProperties {
 
@@ -263,12 +263,12 @@ public class TableProperties {
   public static final String WRITE_FOLDER_STORAGE_LOCATION = "write.folder-storage.path";
 
   // This only applies to files written after this property is set. Files previously written aren't
-  // relocated to reflect this parameter.
+
   // If not set, defaults to a "data" folder underneath the root path of the table.
   public static final String WRITE_DATA_LOCATION = "write.data.path";
 
   // This only applies to files written after this property is set. Files previously written aren't
-  // relocated to reflect this parameter.
+
   // If not set, defaults to a "metadata" folder underneath the root path of the table.
   public static final String WRITE_METADATA_LOCATION = "write.metadata.path";
 

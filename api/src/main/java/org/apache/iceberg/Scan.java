@@ -23,7 +23,7 @@ import java.util.concurrent.ExecutorService;
 import org.apache.iceberg.expressions.Expression;
 import org.apache.iceberg.io.CloseableIterable;
 import org.apache.iceberg.metrics.MetricsReporter;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 /**
  * Scan objects are immutable and can be shared between threads. Refinement methods, like {@link

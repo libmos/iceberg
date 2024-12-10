@@ -28,8 +28,8 @@ import java.util.function.Function;
 import org.apache.iceberg.Schema;
 import org.apache.iceberg.Table;
 import org.apache.iceberg.exceptions.NamespaceNotEmptyException;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
+
+
 
 public abstract class BaseSessionCatalog implements SessionCatalog {
   private final Cache<String, Catalog> catalogs =

@@ -24,13 +24,13 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import org.apache.iceberg.exceptions.UnprocessableEntityException;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableSet;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
-import org.apache.iceberg.relocated.com.google.common.collect.Sets;
+
+
+
+
+
+
+
 import org.apache.iceberg.rest.RESTRequest;
 
 /** A REST request to set and/or remove properties on a namespace. */

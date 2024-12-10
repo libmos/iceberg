@@ -23,8 +23,8 @@ import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.util.List;
 import java.util.function.Supplier;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 
 /** As opposed to {@link ManifestWriter}, a rolling writer could produce multiple manifest files. */
 public class RollingManifestWriter<F extends ContentFile<F>> implements Closeable {

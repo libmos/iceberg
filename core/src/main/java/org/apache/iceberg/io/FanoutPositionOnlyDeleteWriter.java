@@ -27,7 +27,7 @@ import org.apache.iceberg.deletes.DeleteGranularity;
 import org.apache.iceberg.deletes.PositionDelete;
 import org.apache.iceberg.deletes.PositionDeleteIndex;
 import org.apache.iceberg.deletes.SortingPositionOnlyDeleteWriter;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 import org.apache.iceberg.util.CharSequenceSet;
 
 /**

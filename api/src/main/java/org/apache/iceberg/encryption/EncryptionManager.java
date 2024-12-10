@@ -21,7 +21,7 @@ package org.apache.iceberg.encryption;
 import java.io.Serializable;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
 
 /**
  * Module for encrypting and decrypting table data files.

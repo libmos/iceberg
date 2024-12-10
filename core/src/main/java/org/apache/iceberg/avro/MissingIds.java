@@ -21,7 +21,7 @@ package org.apache.iceberg.avro;
 import java.util.List;
 import java.util.function.Supplier;
 import org.apache.avro.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
 
 /**
  * Returns true once the first node is found with ID property missing. Reverse of {@link HasIds}

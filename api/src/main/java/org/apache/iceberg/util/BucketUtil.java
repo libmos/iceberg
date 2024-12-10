@@ -22,8 +22,8 @@ import java.math.BigDecimal;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
-import org.apache.iceberg.relocated.com.google.common.hash.HashFunction;
-import org.apache.iceberg.relocated.com.google.common.hash.Hashing;
+
+
 
 /**
  * Contains the logic for hashing various types for use with the {@code bucket} partition

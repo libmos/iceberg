@@ -23,10 +23,10 @@ import java.util.Map;
 import org.apache.hadoop.fs.Path;
 import org.apache.iceberg.common.DynConstructors;
 import org.apache.iceberg.io.LocationProvider;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.hash.HashCode;
-import org.apache.iceberg.relocated.com.google.common.hash.HashFunction;
-import org.apache.iceberg.relocated.com.google.common.hash.Hashing;
+
+
+
+
 import org.apache.iceberg.util.LocationUtil;
 import org.apache.iceberg.util.PropertyUtil;
 

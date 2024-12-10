@@ -19,7 +19,7 @@
 package org.apache.iceberg.util;
 
 import java.math.BigDecimal;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class DecimalUtil {
   private DecimalUtil() {}

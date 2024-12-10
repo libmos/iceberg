@@ -20,7 +20,7 @@ package org.apache.iceberg.encryption;
 
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.SeekableInputStream;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class AesGcmInputFile implements InputFile {
   private final InputFile sourceFile;

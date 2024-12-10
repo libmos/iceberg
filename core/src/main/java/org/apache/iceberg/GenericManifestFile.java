@@ -30,9 +30,9 @@ import org.apache.avro.specific.SpecificData.SchemaConstructable;
 import org.apache.iceberg.avro.AvroSchemaUtil;
 import org.apache.iceberg.avro.SupportsIndexProjection;
 import org.apache.iceberg.io.InputFile;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.base.Objects;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
+
 import org.apache.iceberg.util.ByteBuffers;
 
 public class GenericManifestFile extends SupportsIndexProjection

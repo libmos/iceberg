@@ -30,7 +30,7 @@ import org.apache.iceberg.SortField;
 import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.Table;
 import org.apache.iceberg.expressions.Expressions;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
 import org.apache.iceberg.transforms.SortOrderVisitor;
 
 public class SortOrderUtil {

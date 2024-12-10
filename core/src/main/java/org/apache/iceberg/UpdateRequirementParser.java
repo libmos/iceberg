@@ -23,8 +23,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Map;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
+
 import org.apache.iceberg.util.JsonUtil;
 
 public class UpdateRequirementParser {

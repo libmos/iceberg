@@ -21,13 +21,16 @@ package org.apache.iceberg;
 import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.Map;
+
+import com.google.common.base.Preconditions;
+import com.google.common.collect.ImmutableList;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.iceberg.encryption.EncryptedOutputFile;
 import org.apache.iceberg.encryption.EncryptionKeyMetadata;
 import org.apache.iceberg.hadoop.HadoopInputFile;
 import org.apache.iceberg.io.InputFile;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
+
+
 import org.apache.iceberg.types.Conversions;
 import org.apache.iceberg.util.ByteBuffers;
 

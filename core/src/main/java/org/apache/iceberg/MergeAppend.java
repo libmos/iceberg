@@ -18,7 +18,7 @@
  */
 package org.apache.iceberg;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /** {@link AppendFiles Append} implementation that produces a minimal number of manifest files. */
 class MergeAppend extends MergingSnapshotProducer<AppendFiles> implements AppendFiles {

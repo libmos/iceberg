@@ -32,7 +32,7 @@ import org.apache.iceberg.avro.AvroSchemaWithTypeVisitor;
 import org.apache.iceberg.avro.SupportsRowPosition;
 import org.apache.iceberg.avro.ValueReader;
 import org.apache.iceberg.avro.ValueReaders;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
+
 import org.apache.iceberg.types.Type;
 import org.apache.iceberg.types.Types;
 

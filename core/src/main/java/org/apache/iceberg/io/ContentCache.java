@@ -31,8 +31,8 @@ import java.util.List;
 import java.util.Locale;
 import org.apache.iceberg.exceptions.NotFoundException;
 import org.apache.iceberg.exceptions.ValidationException;
-import org.apache.iceberg.relocated.com.google.common.base.MoreObjects;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

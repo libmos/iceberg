@@ -22,7 +22,7 @@ import java.util.Map;
 import org.apache.iceberg.encryption.EncryptedOutputFile;
 import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.OutputFile;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
 
 /** Utility class for reading and writing Puffin files. */
 public final class Puffin {

@@ -21,7 +21,7 @@ package org.apache.iceberg.rest;
 import java.util.Map;
 import org.apache.iceberg.catalog.Namespace;
 import org.apache.iceberg.catalog.TableIdentifier;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
+
 
 public class ResourcePaths {
   private static final Joiner SLASH = Joiner.on("/").skipNulls();

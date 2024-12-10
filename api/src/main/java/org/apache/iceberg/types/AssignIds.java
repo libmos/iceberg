@@ -22,7 +22,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Supplier;
 import org.apache.iceberg.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 class AssignIds extends TypeUtil.CustomOrderSchemaVisitor<Type> {
   private final TypeUtil.GetID getID;

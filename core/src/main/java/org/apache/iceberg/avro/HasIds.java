@@ -21,7 +21,7 @@ package org.apache.iceberg.avro;
 import java.util.List;
 import java.util.function.Supplier;
 import org.apache.avro.Schema;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
 
 /**
  * Lazily evaluates the schema to see if any field ids are set. Returns true when a first field is

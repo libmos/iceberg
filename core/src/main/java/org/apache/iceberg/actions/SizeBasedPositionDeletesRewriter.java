@@ -23,7 +23,7 @@ import org.apache.iceberg.DeleteFile;
 import org.apache.iceberg.PositionDeletesScanTask;
 import org.apache.iceberg.Table;
 import org.apache.iceberg.TableProperties;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
+
 import org.apache.iceberg.util.PropertyUtil;
 
 public abstract class SizeBasedPositionDeletesRewriter

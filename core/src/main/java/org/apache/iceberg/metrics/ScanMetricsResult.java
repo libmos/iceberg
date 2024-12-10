@@ -19,7 +19,7 @@
 package org.apache.iceberg.metrics;
 
 import javax.annotation.Nullable;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.immutables.value.Value;
 
 /** A serializable version of {@link ScanMetrics} that carries its results. */

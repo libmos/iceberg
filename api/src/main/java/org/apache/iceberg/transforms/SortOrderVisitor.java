@@ -24,7 +24,7 @@ import org.apache.iceberg.Schema;
 import org.apache.iceberg.SortDirection;
 import org.apache.iceberg.SortField;
 import org.apache.iceberg.SortOrder;
-import org.apache.iceberg.relocated.com.google.common.collect.Lists;
+
 
 public interface SortOrderVisitor<T> {
 

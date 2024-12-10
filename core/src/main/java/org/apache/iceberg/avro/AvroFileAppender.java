@@ -31,7 +31,7 @@ import org.apache.iceberg.exceptions.RuntimeIOException;
 import org.apache.iceberg.io.FileAppender;
 import org.apache.iceberg.io.OutputFile;
 import org.apache.iceberg.io.PositionOutputStream;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 class AvroFileAppender<D> implements FileAppender<D> {
   private final PositionOutputStream stream;

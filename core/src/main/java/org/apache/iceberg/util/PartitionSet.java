@@ -26,11 +26,11 @@ import java.util.Set;
 import java.util.StringJoiner;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableMap;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterables;
-import org.apache.iceberg.relocated.com.google.common.collect.Iterators;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
+
+
+
+
 import org.apache.iceberg.types.Types;
 
 public class PartitionSet extends AbstractSet<Pair<Integer, StructLike>> {

@@ -22,7 +22,7 @@ import java.util.Locale;
 import org.apache.iceberg.metrics.CommitReport;
 import org.apache.iceberg.metrics.MetricsReport;
 import org.apache.iceberg.metrics.ScanReport;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 import org.apache.iceberg.rest.RESTRequest;
 import org.immutables.value.Value;
 

@@ -20,7 +20,7 @@ package org.apache.iceberg.data;
 
 import java.util.Map;
 import org.apache.iceberg.StructLike;
-import org.apache.iceberg.relocated.com.google.common.collect.Maps;
+
 import org.apache.iceberg.types.Types.StructType;
 
 public interface Record extends StructLike {

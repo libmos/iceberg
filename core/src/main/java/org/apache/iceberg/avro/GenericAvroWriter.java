@@ -26,7 +26,7 @@ import org.apache.avro.LogicalTypes;
 import org.apache.avro.Schema;
 import org.apache.avro.io.Encoder;
 import org.apache.iceberg.FieldMetrics;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 public class GenericAvroWriter<T> implements MetricsAwareDatumWriter<T> {
   private ValueWriter<T> writer = null;

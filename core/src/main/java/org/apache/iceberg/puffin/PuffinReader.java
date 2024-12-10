@@ -33,9 +33,9 @@ import org.apache.iceberg.io.InputFile;
 import org.apache.iceberg.io.RangeReadable;
 import org.apache.iceberg.io.SeekableInputStream;
 import org.apache.iceberg.puffin.PuffinFormat.Flag;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
-import org.apache.iceberg.relocated.com.google.common.collect.ImmutableList;
-import org.apache.iceberg.relocated.com.google.common.io.ByteStreams;
+
+
+
 import org.apache.iceberg.util.Pair;
 
 public class PuffinReader implements Closeable {

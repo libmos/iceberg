@@ -22,8 +22,9 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.function.Consumer;
+
+import com.google.common.base.Preconditions;
 import org.apache.iceberg.io.SupportsBulkOperations;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
 
 /**
  * An action that deletes orphan metadata, data and delete files in a table.

@@ -18,11 +18,14 @@
  */
 package org.apache.iceberg.catalog;
 
+import com.google.common.base.Joiner;
+import com.google.common.base.Preconditions;
+
 import java.util.Arrays;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
-import org.apache.iceberg.relocated.com.google.common.base.Joiner;
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
+
 
 /** A namespace in a {@link Catalog}. */
 public class Namespace {

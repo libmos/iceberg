@@ -18,7 +18,7 @@
  */
 package org.apache.iceberg.deletes;
 
-import org.apache.iceberg.relocated.com.google.common.base.Preconditions;
+
 
 /**
  * An enum that represents the granularity of deletes.

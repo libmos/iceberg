@@ -19,7 +19,7 @@
 package org.apache.iceberg;
 
 import java.io.Serializable;
-import org.apache.iceberg.relocated.com.google.common.base.Objects;
+
 import org.apache.iceberg.transforms.Transform;
 
 /** Represents a single field in a {@link PartitionSpec}. */
